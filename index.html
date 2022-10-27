@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+    
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Healthy Cereals</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
 </head>
-<h1>Healthy Cereals</h1>
-<img src="https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/food-and-nutrition/gluten-free-diet-teaser.ashx">
 <body>
-    
+  <header class="header">
+    <h1>Healthy Cereals</h1>
+  </header>
+
+    <nav>
+        <a href="#">AboutUs</a>
+            <a href="#">Recommendations</a>
+             <a href="#">Contact</a>   
+        </a></nav>
+
+  <main class="content">
+<img src="https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/food-and-nutrition/gluten-free-diet-teaser.ashx">
+
+</main>
+<h2>Contact Form</h2>
+<section>
+  <form action="/action_page.php" method="get">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+
+    <label for=".name">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="mexico">Mexico</option>
+    </select><br><br>
+
+    <label for="subject">Share</label>
+    <textarea id="subject" name="subject" placeholder="What's your favorite cereal?" style="height:200px"></textarea><br><br>
+    <input type="submit" value="Submit"><br><br>
+  </form>
+</div>
+</section>
 </body>
 </html>
