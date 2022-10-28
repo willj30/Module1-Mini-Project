@@ -13,18 +13,21 @@
     <h1>Healthy Cereals</h1>
   </header>
 
-    <nav>
+    <nav class="nav">
         <a href="#">AboutUs</a>
             <a href="#">Recommendations</a>
-             <a href="#">Contact</a>   
+             <a href="#contactform">Contact</a>   
         </a></nav>
 
   <main class="content">
-<img src="https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/food-and-nutrition/gluten-free-diet-teaser.ashx">
-
+    <figure>
+<img src="https://www.hopkinsmedicine.org/-/media/images/health/3_-wellness/food-and-nutrition/gluten-free-diet-teaser.ashx" alt="Healthy Cereal" class="center"><br>
+<figcaption>Adding Fruits and Nuts is a great healthy option!</figcaption>
+    </figure><br><br>
 </main>
-<h2>Contact Form</h2>
-<section>
+
+<section class="container" id="contactform">
+  <h2 >Contact Form</h2>
   <form action="/action_page.php" method="get">
     <label for="fname">First name:</label>
     <input type="text" id="fname" name="fname"><br><br>
@@ -39,11 +42,14 @@
       <option value="mexico">Mexico</option>
     </select><br><br>
 
-    <label for="subject">Share</label>
-    <textarea id="subject" name="subject" placeholder="What's your favorite cereal?" style="height:200px"></textarea><br><br>
+    <label for="subject">Share!</label>
+    <textarea id="subject" name="subject" placeholder="What's your favorite cereal?" style="height:100px"></textarea><br><br>
     <input type="submit" value="Submit"><br><br>
   </form>
 </div>
 </section>
-</body>
+</body><br><br>
+<footer> 
+  <h3>Made by Will Jaramillo</h3> 
+  </footer>
 </html>
